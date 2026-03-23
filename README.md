@@ -1,16 +1,31 @@
-# React + Vite
+🩺 MediInsight – AI Medical Report Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MediInsight is an AI-powered web application that simplifies complex medical reports into easy-to-understand insights. It helps users understand their health reports, key findings, and provides personalized diet & lifestyle recommendations.
 
-Currently, two official plugins are available:
+⸻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+	•	📄 Upload Medical Reports
+	•	Supports PDF, Images (OCR), and Text files
+	•	🤖 AI-Powered Analysis
+	•	Uses Groq API (LLaMA model) to interpret reports
+	•	🧠 Simple Health Summary
+	•	Converts complex medical jargon into friendly language
+	•	📊 Visual Health Metrics
+	•	Easy-to-read indicators with severity levels
+	•	🥗 Personalized Recommendations
+	•	Diet plan, routine plan, and things to avoid
+	•	💬 AI Chat Assistant
+	•	Ask questions about your report in real-time
+	•	🎨 Modern UI
+	•	Clean, responsive, and animated interface
 
-## React Compiler
+⸻
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+	•	Frontend: React + Vite
+	•	Styling: Tailwind CSS
+	•	Icons: Lucide React
+	•	AI Integration: Groq API (LLaMA 3.1)
+	•	OCR: Tesseract.js
+	•	PDF Parsing: PDF.js
